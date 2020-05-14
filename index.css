@@ -1,0 +1,84 @@
+.list {
+    position: relative;
+    height: 595px;
+    width: 30vw;
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+    background-image: url('https://mcdn.wallpapersafari.com/medium/70/51/nBW05S.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#head {
+    text-align: center;
+    height: 100px;
+}
+
+#main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 96vh;
+}
+
+#addlist {
+    margin-bottom: 0px;
+    border-radius: 5px;
+    padding: 0px;
+}
+
+#list {
+    min-height: 57.5vh;
+}
+
+#header {
+    font-family: "Crimson Pro", serif;
+    font-size: 50px;
+    padding: 15px;
+    float: left;
+    padding-left: 0px;
+    color: whitesmoke;
+}
+
+#date {
+    font-family: "Crimson Pro", serif;
+    font-weight: lighter;
+    font-style: italic;
+    font-size: large;
+    color: whitesmoke;
+    padding-right: 0px;
+}
+
+ul {
+    font-family: "Roboto", serif;
+    font-size: 25px;
+    overflow: auto;
+    margin: 0px;
+    padding: 0px;
+    overflow: auto;
+}
+
+ul li {
+    margin-top: 0 px;
+    opacity: .8;
+    background-color: whitesmoke;
+    color: black;
+    margin-bottom: 2px;
+    border-radius: 5px;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    display: block;
+    position: relative;
+}
+
+ul li:hover {
+    background: rgb(225, 230, 230);
+}
+
+
+/*.liBtn {
+    float: right;
+}*/
