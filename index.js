@@ -12,15 +12,7 @@ window.onload = function() {
         let btn2 = document.createElement('button');
         let chkBx = document.querySelector('ul')
         btn2.innerHTML = "x";
-        //btn2.classList.add = ("liBtn")
-        //btn2.classname =("liBtn")
-        btn2.style.color = 'grey'
-        btn2.style.backgroundColor = "white";
-        btn2.style.borderRadius = '3px'
-        btn2.style.float = 'right'
-        btn2.style.border = 'none'
-        btn2.style.outline = 'none'
-
+        btn2.classList.add("liBtn");
         btn2.addEventListener('click', function() {
             l.remove();
         })
@@ -30,7 +22,7 @@ window.onload = function() {
         l.appendChild(t);
         l.appendChild(btn2);
         if (inputValue === '') {
-            alert("Please add the list!");
+            alert("Please add the note!");
         } else {
             document.getElementById("list").appendChild(l);
         }
